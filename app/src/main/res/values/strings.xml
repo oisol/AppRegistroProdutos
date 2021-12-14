@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Cadastro</string>
+    <string name="txt_usuario">Usuário:</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_nome">Digite seu Login</string>
+    <string name="txt_senha">Digite sua Senha</string>
+    <string name="txt_esqueceu">Digite o seu e-mail:</string>
+    <string name="txt_email">Email:</string>
+
+    // Cadastro item
+
+    <string name="txt_titulo">Cadastrar Produto</string>
+    <string name="txt_nomeProduto">Nome</string>
+    <string name="txt_codigo">Codigo</string>
+    <string name="txt_categoria">Categorias</string>
+    <string name="txt_descricao">Descrição</string>
+
+    // Hints
+    <string name="txt_hintNome">Digte o Nome do Produto</string>
+    <string name="txt_hintCat">Selecione</string>
+    <string name="txt_hintDesc">Digite uma Descrição</string>
+    <string name="txt_hintCod">Digite o Codigo do Produto</string>
+
+
+    // Bottons
+    // Login
+    <string name="btn_entrar">Entrar</string>
+    <string name="btn_recuperar">Esqueceu a Senha?</string>
+    <string name="btn_enviar">Enviar</string>
+    <string name="btn_voltar">Voltar</string>
+
+    // Cadastro
+    <string name="btn_finalizar">Finalizar</string>
+
+    // Lista
+    <string name="txt_cadastrado">Cadastrado</string>
+    <string name="btn_sair">Sair</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20sp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/esqueceu">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:text="@string/txt_esqueceu"
+            android:textSize="29sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/white"
+            android:hint="@string/txt_email"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnEnviar"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="06dp"
+            android:text="@string/btn_enviar"
+            android:textSize="20sp"
+            app:backgroundTint="@color/teal_200"
+            app:icon="@android:drawable/ic_dialog_email"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btnVoltar"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_voltar"
+            android:textSize="20sp"
+            app:icon="@android:drawable/ic_menu_revert"
+            android:textStyle="bold"/>
+
+
+</LinearLayout>
